@@ -1,4 +1,4 @@
- ![photo Max](/img/2.jpg)
+ ![photo Max](img/2.jpg)
 
  # Maxim Klimenkov 
 

@@ -1,4 +1,5 @@
- ![photo Max](img/2.jpg)
+ ![photo Max](img/2.jpg)  
+ 
 
  # Maxim Klimenkov 
 
@@ -133,8 +134,6 @@ A simple working slider for viewing photos from the gallery made in JavaScript
     next.addEventListener('click', ()=>{          
     for(let i = 0; i < gallaryImg.length; i++){
             if(activeImg.src === gallaryImg[i].src){
-                console.log(i);
-            
                 if(i === (gallaryImg.length-1)){
                     activeImg.src = gallaryImg[i=0].src;
                 }
@@ -182,5 +181,6 @@ Task solution code Replace With Alphabet Position (6 kuy)
         text = arrStr.join(" ");
         return text;
     }
+
 
 

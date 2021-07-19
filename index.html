@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h2 header__title><a class="link-title" href="#">maxim klimenkov</a></h2>
+            <h1 header__title>junior front-end developer</h1>
+        </div> 
+    </header>
+    
+    <main>
+        <div class="container">
+            <section class="about">
+                <div class="section-wrapper">
+                    <article class="about-data">
+                       <h3 class="page-title">personal qualities</h3>
+                       <p class="page-subtitle">
+                        I am result oriented. I like to solve complex and extraordinary tasks. 
+                        Easy to learn new skills. Team player.
+                       </p> 
+                    </article>
+                    <article class="about-data">
+                       <h3 class="page-title">skills</h3>
+                        <ul class="skills">
+                            <li class="skills__item">English: A1</li>
+                            <li class="skills__item">HTML5 ★★★★★</li>
+                            <li class="skills__item">CSS3  ★★★★★</li>
+                            <li class="skills__item">SASS  ★★★☆☆</li>
+                            <li class="skills__item">BEM   ★★★★☆</li>
+                            <li class="skills__item">Flexbox ★★★★☆</li>
+                            <li class="skills__item">JavaScript ★★☆☆☆</li>
+                            <li class="skills__item">PHP ★☆☆☆☆</li>
+                            <li class="skills__item">MySQL ★☆☆☆☆</li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+            <section class="education">
+                <h3 class="page-title">education</h3>
+                <article class="data">
+                    <h4 class="page-subtitle"> Udemy</h4>
+                        <div class="data-block">
+                            <div class="data-block__header">
+                                    JavaScript + React | <br>
+                                    <time> July - up to now </time> 
+                            </div>
+                            <div class="data-block__description">
+                                Learning JavaScript basics, working with npm, Babel, Browserify, Webpack. Technologies AJAX, JSON
+                            </div>    
+                   
+                        </div>
+               </article> 
+
+               <article class="data">
+                    <h4 class="page-subtitle">IT SHATLE</h4>
+                        <div class="data-block">
+                            <div class="data-block__header">
+                                        Certificate of completion |<br>
+                                        <time> October 2020 - December 2020 </time> 
+                        </div>
+                        <div class="data-block__description">
+                            Studied HTML, CSS. Adaptive cross-browser coding of sites, Flexbox, Grid, BEM, Float, Git, SASS preprocessors.
+                             The Gulp Project Builder
+                        </div>    
+                    </div>
+                </article> 
+            </section>  
+            <section class="projects">
+                <h3 class="page-title">projects</h3>
+                <article class="data">
+                    <h4 class="page-subtitle"><a class="link-title" href="#">Equestrian estate</a></h4>
+                        <div class="data-block">
+                            <div class="data-block__header">
+                                        GitHub |<br>
+                                        <a href="https://github.com/MxKlim/KonnoePomeste">View source here</a>
+                        </div>
+                        <div class="data-block__description">
+                            The training project is a three-page website. I used HTML 5, SCSS, JS. The main task is an adaptive gallery with a slider, to work with the "panini" template engine. The layout was collected by the Gulp assembly. Full screen video background.
+                            I am still working on the project at the moment.
+                        </div>    
+                    </div>
+                </article> 
+                <article class="data">
+                    <h4 class="page-subtitle"><a class="link-title" href="https://mxklim.github.io/webschool/">webschool</a></h4>
+                        <div class="data-block">
+                            <div class="data-block__header">
+                                        GitHub |<br>
+                                        <a href="https://github.com/MxKlim/webschool">View source here</a>
+                        </div>
+                        <div class="data-block__description">
+                            In this project I used HTML, SCSS, JS. The purpose of the work is an adaptive site, with a "Slick Slider" slider.
+                            Verification of mail and sending messages to the Telegram channel. 
+                            PHP script for transliteration from Cyrillic to Latin (hosting features)
+                        </div>    
+                    </div>
+                </article> 
+            </section>
+            <section class="code">
+                <article class="data">
+                    <h4 class="page-subtitle">Code JS</h4>
+                        <div class="data-block">
+                            <div class="data-block__header">
+                                Task solution code Replace With Alphabet Position (6 kuy) <br>
+                                        <a href="https://www.codewars.com/kata/546f922b54af40e1e90001da/solutions/javascript">View task here</a>
+                        </div>
+                        <div class="data-block__description">
+                           <pre> 
+                               <code>
+                                function alphabetPosition(text){
+                                    let strAlphabet = "abcdefghijklmnopqrstuvwxyz",
+                                        arrStr =[];
+                                    text = text.toLowerCase();
+                                    
+                                    for (let i = 0; i < text.length; i++) {
+                                        if(strAlphabet.indexOf(text[i]) >= 0) {
+                                        addLiterStr(i)
+                                        }
+                                    }
+                    
+                                    function addLiterStr(i){
+                                        if( strAlphabet.indexOf(text[i])>= 0) {
+                                            arrStr.push( strAlphabet.indexOf(text[i])+1);
+                                        } else{
+                                        addLiterStr(i);
+                                        }
+                                    }
+                                    text = arrStr.join(" ");
+                                    return text;
+                                }
+                                </code>
+                            </pre>
+                        </div>    
+                    </div>
+                </article> 
+            </section> 
+        </div>
+    </main>
+    <aside class="aside">
+        <div class="photo">
+            <img src="img/1.jpg" alt="photo man">
+        </div>
+        <div class="info">
+            <article class="contacts">
+                <h4 class="page-subtitle page-subtitle_aside">Contact information</h4>
+                <ul class="contacts-list">
+                    <li class="contacts-list__item">Location: Minsk</li>
+                    <li class="contacts-list__item">
+                        Email: <a href="mailto:mxsrton@gmail.com">mxsrton@gmail.com</li>
+                    <li class="contacts-list__item">GitHub: <a href="https://github.com/MxKlim">MxKlim</a></li>
+                    <li class="contacts-list__item">Tel: <a href="tel:+375447749383">+375447749383</a> </li>
+                    <li class="contacts-list__item">Social networks: <a href="https://vk.com/id207841975">vk</a></li>
+                </ul>
+            </article>
+        </div>
+    </aside>
+</body>
+</html>

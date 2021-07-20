@@ -19,11 +19,14 @@ body {
     background-color: white;
 }
 
-ol, ul {
+ol, 
+ul {
     list-style-type: none;
 }
 
-a, a:focus, img {
+a, 
+a:focus, 
+img {
     border: none;
     outline: none;
 }
@@ -36,11 +39,21 @@ a:hover {
     cursor: pointer;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
     padding: 0;
     margin: 0;
 }
-
+section{
+    margin-bottom: 10%;
+}
+code{
+    font-size: 1.2em;
+}
 html {
     font-size: 62.5%;
 }
@@ -49,7 +62,7 @@ html {
     border-color:white;
     font-family: 'Roboto Slab', serif;
     font-size: 14px;
-    max-width: 1400px; 
+    max-width: 1600px; 
 }
 .page{
     width: auto;
@@ -80,7 +93,6 @@ html {
 
 .section-wrapper{
     display: flex;
-    /*flex-direction: row-reverse;*/
     justify-content: space-between;
 }
 .about-data{
@@ -99,7 +111,7 @@ html {
 .data-block__description{
     color:#3b3b9b;
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.6em;
 }
 
 .skills{
@@ -179,15 +191,18 @@ html {
 }
 .contacts-list__item{
     margin-bottom: 2%;
+    font-weight: 400;
+    font-size: 1.1em;
 }
 .rs-logo{
-    width: 50px;
+    width: 70px;
     height: auto;
 }
-.copirate{
+.copyright{
     display: flex;
 }
-.copirate__item{
+.copyright__item{
+    font-size: 1.6em;
     color:#fff;
     padding-right: 10px;
 }

@@ -1,1 +1,1 @@
-# rsschool-cv
+https://mxklim.github.io/rsschool-cv/

@@ -4,51 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <title>CV</title>
 </head>
 <body>
+    <div class="page">
     <header class="header">
         <div class="container">
-            <h2 header__title><a class="link-title" href="#">maxim klimenkov</a></h2>
-            <h1 header__title>junior front-end developer</h1>
+            <h2 class="header__title"><a class="link-title header__title" href="#">maxim klimenkov</a></h2>
+            <h1 class="header__subtitle">junior front-end developer</h1>
         </div> 
     </header>
     
     <main>
         <div class="container">
-            <section class="about">
                 <div class="section-wrapper">
                     <article class="about-data">
-                       <h3 class="page-title">personal qualities</h3>
-                       <p class="page-subtitle">
+                       <h3 class="page-title">Personal qualities</h3>
+                       <p class="text-subtitle">
                         I am result oriented. I like to solve complex and extraordinary tasks. 
                         Easy to learn new skills. Team player.
                        </p> 
                     </article>
                     <article class="about-data">
-                       <h3 class="page-title">skills</h3>
-                        <ul class="skills">
-                            <li class="skills__item">English: A1</li>
-                            <li class="skills__item">HTML5 ★★★★★</li>
-                            <li class="skills__item">CSS3  ★★★★★</li>
-                            <li class="skills__item">SASS  ★★★☆☆</li>
-                            <li class="skills__item">BEM   ★★★★☆</li>
-                            <li class="skills__item">Flexbox ★★★★☆</li>
-                            <li class="skills__item">JavaScript ★★☆☆☆</li>
-                            <li class="skills__item">PHP ★☆☆☆☆</li>
-                            <li class="skills__item">MySQL ★☆☆☆☆</li>
-                        </ul>
+                       <h3 class="page-title">Skills</h3>
+                        <table>
+                            <tbody>
+                                  <tr>
+                            <td class="skills__item">English</td>
+                            <td class="skills__item">A1</td>
+                        </tr>
+                        <tr>
+                            <td class="skills__item">HTML</td>
+                            <td class="skills__item">★★★★★</td>
+                        </tr>
+                        <tr>
+                            <td class="skills__item">CSS3</td>
+                            <td class="skills__item">★★★★★</td>
+                        </tr>
+                        <tr>
+                            <td class="skills__item">SASS</td>
+                            <td class="skills__item">★★★☆☆</td>
+                        </tr>
+                        <tr>
+                            <td class="skills__item">BEM</td>
+                            <td class="skills__item">★★★★☆</td>
+                        </tr>
+                        <tr>
+                            <td  class="skills__item">Flex</td>
+                            <td  class="skills__item">★★★★☆</td>
+                        </tr>
+                         <tr>
+                            <td class="skills__item">JavaScript</td>
+                            <td class="skills__item">★★☆☆☆</td>
+                        </tr>
+                         <tr>
+                            <td class="skills__item">PHP</td>
+                            <td class="skills__item">★☆☆☆☆</td>
+                        </tr>
+                         <tr>
+                            <td class="skills__item">MySQL</td>
+                            <td class="skills__item">★☆☆☆☆</td>
+                        </tr>
+                    
+                    </tbody>
+                    </table>
                     </article>
                 </div>
-            </section>
             <section class="education">
-                <h3 class="page-title">education</h3>
+                <h3 class="page-title">Education</h3>
                 <article class="data">
                     <h4 class="page-subtitle"> Udemy</h4>
                         <div class="data-block">
                             <div class="data-block__header">
                                     JavaScript + React | <br>
-                                    <time> July - up to now </time> 
+                                     July - up to now  
                             </div>
                             <div class="data-block__description">
                                 Learning JavaScript basics, working with npm, Babel, Browserify, Webpack. Technologies AJAX, JSON
@@ -62,7 +95,7 @@
                         <div class="data-block">
                             <div class="data-block__header">
                                         Certificate of completion |<br>
-                                        <time> October 2020 - December 2020 </time> 
+                                         October 2020 - December 2020 
                         </div>
                         <div class="data-block__description">
                             Studied HTML, CSS. Adaptive cross-browser coding of sites, Flexbox, Grid, BEM, Float, Git, SASS preprocessors.
@@ -72,9 +105,9 @@
                 </article> 
             </section>  
             <section class="projects">
-                <h3 class="page-title">projects</h3>
+                <h3 class="page-title">Projects</h3>
                 <article class="data">
-                    <h4 class="page-subtitle"><a class="link-title" href="#">Equestrian estate</a></h4>
+                    <h4 class="page-subtitle"><a class="link-page" href="#">Equestrian estate</a></h4>
                         <div class="data-block">
                             <div class="data-block__header">
                                         GitHub |<br>
@@ -87,7 +120,7 @@
                     </div>
                 </article> 
                 <article class="data">
-                    <h4 class="page-subtitle"><a class="link-title" href="https://mxklim.github.io/webschool/">webschool</a></h4>
+                    <h4 class="page-subtitle"><a class="link-page" href="https://mxklim.github.io/webschool/">webschool</a></h4>
                         <div class="data-block">
                             <div class="data-block__header">
                                         GitHub |<br>
@@ -100,8 +133,6 @@
                         </div>    
                     </div>
                 </article> 
-            </section>
-            <section class="code">
                 <article class="data">
                     <h4 class="page-subtitle">Code JS</h4>
                         <div class="data-block">
@@ -110,29 +141,27 @@
                                         <a href="https://www.codewars.com/kata/546f922b54af40e1e90001da/solutions/javascript">View task here</a>
                         </div>
                         <div class="data-block__description">
-                           <pre> 
+                           <pre>
                                <code>
-                                function alphabetPosition(text){
-                                    let strAlphabet = "abcdefghijklmnopqrstuvwxyz",
-                                        arrStr =[];
-                                    text = text.toLowerCase();
-                                    
-                                    for (let i = 0; i < text.length; i++) {
-                                        if(strAlphabet.indexOf(text[i]) >= 0) {
-                                        addLiterStr(i)
-                                        }
-                                    }
-                    
-                                    function addLiterStr(i){
-                                        if( strAlphabet.indexOf(text[i])>= 0) {
-                                            arrStr.push( strAlphabet.indexOf(text[i])+1);
-                                        } else{
-                                        addLiterStr(i);
-                                        }
-                                    }
-                                    text = arrStr.join(" ");
-                                    return text;
-                                }
+function alphabetPosition(text) {
+    let strAlphabet = "abcdefghijklmnopqrstuvwxyz",
+    arrStr =[];
+    text = text.toLowerCase();
+    for(let i = 0; i &lt; text.length; i++) {
+        if(strAlphabet.indexOf(text[i]) >= 0) {
+            addLiterStr(i)
+        }
+    }
+    function addLiterStr(i) {
+        if( strAlphabet.indexOf(text[i])>= 0) {
+            arrStr.push( strAlphabet.indexOf(text[i])+1);
+        } else{
+            addLiterStr(i);
+        }
+    }
+    text = arrStr.join(" ");
+    return text;
+}
                                 </code>
                             </pre>
                         </div>    
@@ -142,22 +171,34 @@
         </div>
     </main>
     <aside class="aside">
-        <div class="photo">
-            <img src="img/1.jpg" alt="photo man">
-        </div>
-        <div class="info">
-            <article class="contacts">
-                <h4 class="page-subtitle page-subtitle_aside">Contact information</h4>
-                <ul class="contacts-list">
-                    <li class="contacts-list__item">Location: Minsk</li>
-                    <li class="contacts-list__item">
-                        Email: <a href="mailto:mxsrton@gmail.com">mxsrton@gmail.com</li>
-                    <li class="contacts-list__item">GitHub: <a href="https://github.com/MxKlim">MxKlim</a></li>
-                    <li class="contacts-list__item">Tel: <a href="tel:+375447749383">+375447749383</a> </li>
-                    <li class="contacts-list__item">Social networks: <a href="https://vk.com/id207841975">vk</a></li>
-                </ul>
-            </article>
+        <div class="sidebar">
+            <div class="photo">
+                <img class="photo__person" src="img/1.jpg" alt="photo man">
+            </div>
+            <div class="info">
+                <article class="contacts">
+                    <h4 class="page-subtitle page-subtitle_aside">Contact information</h4>
+                    <ul class="contacts-list">
+                        <li class="contacts-list__item">Location: Minsk</li>
+                        <li class="contacts-list__item">
+                            Email: <a class="link-page" href="mailto:mxsrton@gmail.com">mxsrton@gmail.com</a></li>
+                        <li class="contacts-list__item">Tel: <a class="link-page" href="tel:+375447749383">+375447749383</a> </li>
+                        <li class="contacts-list__item">Social networks: <a class="link-page"  href="https://vk.com/id207841975">vk</a></li>
+                    </ul>
+                </article>
+                
+            </div>
+            <footer class="footer">
+                <div class="info">
+                    <ul class="copirate">
+                        <li class="copirate__item"><a class="link-page" href="https://github.com/MxKlim">GitHub</a></li>
+                        <li class="copirate__item">2021</li>
+                        <li class="copirate__item"><a class="link-page" href="https://rs.school/js/"><img class="rs-logo" src="img/logo.svg" alt="logo rs school"></a></li>
+                    </ul>
+                </div>
+            </footer>
         </div>
     </aside>
+    </div>
 </body>
 </html>

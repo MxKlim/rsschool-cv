@@ -1,7 +1,7 @@
  ![photo Max](img/2.jpg)  
  
 
- # Maxim Klimenkov 
+# Maxim Klimenkov 
 
 ## Contacts
  **tel:** *+375447749383*  

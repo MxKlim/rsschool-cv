@@ -12,8 +12,22 @@
 </head>
 <body>
     <div class="page">
+        
     <header class="header">
+        
         <div class="container">
+            
+            <div class="menu-container">
+                <button class="navigation">Menu</button>
+                <nav>
+                    <ul class="menu">
+                        <li class="menu__item"><a href="#">About</a></li>
+                        <li class="menu__item"><a href="#">Education</a></li>
+                        <li class="menu__item"><a href="#">Projects</a></li>
+                        <li class="menu__item"><a href="#">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
             <h2 class="header__title"><a class="link-title header__title" href="#">maxim klimenkov</a></h2>
             <h1 class="header__subtitle">junior front-end developer</h1>
         </div> 
@@ -21,16 +35,19 @@
     
     <main>
         <div class="container">
-                <div class="section-wrapper">
+            
+                
+                    <section class="about">
+                        <h3 class="page-title">About me</h3>
                     <article class="about-data">
-                       <h3 class="page-title">Personal qualities</h3>
+                       <h3 class="page-subtitle">Personal qualities</h3>
                        <p class="text-subtitle">
                         I am result oriented. I like to solve complex and extraordinary tasks. 
-                        Easy to learn new skills. Team player.
+                        Easy to learn new skills. Team player. My range of interests is web development, chemistry and biology. I dream of creating my own highly loaded project.
                        </p> 
                     </article>
                     <article class="about-data">
-                       <h3 class="page-title">Skills</h3>
+                       <h3 class="page-subtitle">Skills</h3>
                         <table>
                             <tbody>
                                   <tr>
@@ -59,7 +76,7 @@
                         </tr>
                          <tr>
                             <td class="skills__item">JavaScript</td>
-                            <td class="skills__item">★★☆☆☆</td>
+                            <td class="skills__item">★★★☆☆</td>
                         </tr>
                          <tr>
                             <td class="skills__item">PHP</td>
@@ -73,7 +90,8 @@
                     </tbody>
                     </table>
                     </article>
-                </div>
+                    </section>
+                
             <section class="education">
                 <h3 class="page-title">Education</h3>
                 <article class="data">
@@ -134,6 +152,18 @@
                     </div>
                 </article> 
                 <article class="data">
+                    <h4 class="page-subtitle"><a class="link-page" href="https://jehnyfit.by/">Jehny Fit</a></h4>
+                        <div class="data-block">
+                            <div class="data-block__header">
+                                Jehny Fit |<br>
+                                        <a href="https://jehnyfit.by/">View here</a>
+                        </div>
+                        <div class="data-block__description">
+                            In this project I used HTML, SCSS, JS. Work was carried out with payment systems. Working with forms and SHA encryption, configuring the administrative panel and dynamic price changes.
+                        </div>    
+                    </div>
+                </article> 
+                <article class="data">
                     <h4 class="page-subtitle">Code JS</h4>
                         <div class="data-block">
                             <div class="data-block__header">
@@ -166,8 +196,47 @@ function alphabetPosition(text) {
                             </pre>
                         </div>    
                     </div>
+                    <div class="data-block">
+                        <div class="data-block__header">
+                            Task solution code Multiples of 3 or 5 (6 kuy) <br>
+                                    <a href="https://www.codewars.com/kata/514b92a657cdc65150000006">View task here</a>
+                    </div>
+                    <div class="data-block__description">
+                       <pre>
+                           <code>
+function solution(number){
+ const stack = [];
+  for(let i = 0; i < number; i++){
+    if(i%3 === 0){
+     stack.push(i)
+    }
+    if(i%5 === 0){
+     if(!stack.includes(i)){
+     stack.push(i)
+   }
+  }
+ }
+ let reducer = (acc, cur) => acc + cur;
+ return stack.length > 0 ? stack.reduce(reducer) : 0;
+}
+                            </code>
+                        </pre>
+                    </div>    
+                </div>
                 </article> 
             </section> 
+            
+            <article class="data">
+                <h3 class="page-title">Contact information</h3>
+                <ul class="contacts-list_main ">
+                    <li class="data-block__description">Location: Minsk</li>
+                    <li class="data-block__description">
+                        Email: <a class="link-page" href="mailto:mxsrton@gmail.com">mxsrton@gmail.com</a></li>
+                    <li class="data-block__description">Tel: <a class="link-page" href="tel:+375447749383">+375447749383</a> </li>
+                    <li class="data-block__description">Telegram: @maxsimklimenkov</li>
+                </ul>
+            </article> 
+            
         </div>
     </main>
     <aside class="aside">
@@ -200,5 +269,6 @@ function alphabetPosition(text) {
         </div>
     </aside>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>

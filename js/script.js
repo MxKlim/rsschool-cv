@@ -73,6 +73,10 @@ document.addEventListener('DOMContentLoaded', () => {
            _____________
            итого [140]
           `);
+<<<<<<< HEAD
           console.log('ссылочка на пул:  ' )
+=======
+          console.log('ссылочка на пул: ' )
+>>>>>>> 36a4ca04e428a800366286af82fcc7e80cbf9246
 
 });

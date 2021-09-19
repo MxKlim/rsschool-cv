@@ -56,7 +56,7 @@
         <div class="container">
             
                 
-                    <section class="about"><a name="about"></a> 
+                    <section class="about"><a id="about"></a> 
                         <h3 class="page-title">About me</h3>
                     <article class="about-data">
                        <h3 class="page-subtitle">Personal qualities</h3>
@@ -67,51 +67,36 @@
                     </article>
                     <article class="about-data">
                        <h3 class="page-subtitle">Skills</h3>
-                        <table>
-                            <tbody>
-                                  <tr>
-                            <td class="skills__item">English</td>
-                            <td class="skills__item">A1</td>
-                        </tr>
-                        <tr>
-                            <td class="skills__item">HTML</td>
-                            <td class="skills__item">★★★★★</td>
-                        </tr>
-                        <tr>
-                            <td class="skills__item">CSS3</td>
-                            <td class="skills__item">★★★★★</td>
-                        </tr>
-                        <tr>
-                            <td class="skills__item">SASS</td>
-                            <td class="skills__item">★★★☆☆</td>
-                        </tr>
-                        <tr>
-                            <td class="skills__item">BEM</td>
-                            <td class="skills__item">★★★★☆</td>
-                        </tr>
-                        <tr>
-                            <td  class="skills__item">Flex</td>
-                            <td  class="skills__item">★★★★☆</td>
-                        </tr>
-                         <tr>
-                            <td class="skills__item">JavaScript</td>
-                            <td class="skills__item">★★★☆☆</td>
-                        </tr>
-                         <tr>
-                            <td class="skills__item">PHP</td>
-                            <td class="skills__item">★☆☆☆☆</td>
-                        </tr>
-                         <tr>
-                            <td class="skills__item">MySQL</td>
-                            <td class="skills__item">★☆☆☆☆</td>
-                        </tr>
-                    
-                    </tbody>
-                    </table>
+                        <div class="skills-wrapper">
+                            <ul class="scills-name">
+                                <li class="scills__item">English</li>
+                                <li class="scills__item">HTML 5</li>
+                                <li class="scills__item">CSS 3</li>
+                                <li class="scills__item">SASS/SCSS</li>
+                                <li class="scills__item">BEM</li>
+                                <li class="scills__item">Flex/Grid</li>
+                                <li class="scills__item">JavaScript</li>
+                                <li class="scills__item">PHP</li>
+                                <li class="scills__item">MySQL</li>
+                                <li class="scills__item">Git</li>
+                            </ul>
+                            <ul class="scills-level">
+                                <li class="scills__item">A1</li>
+                                <li class="scills__item">★★★★★</li>
+                                <li class="scills__item">★★★★★</li>
+                                <li class="scills__item">★★★☆☆</li>
+                                <li class="scills__item">★★★☆☆</li>
+                                <li class="scills__item">★★★★☆</li>
+                                <li class="scills__item">★★★☆☆</li>
+                                <li class="scills__item">★☆☆☆☆</li>
+                                <li class="scills__item">★☆☆☆☆</li>
+                                <li class="scills__item">★★★☆☆</li>
+                            </ul>
+                        </div>
                     </article>
                     </section>
                 
-            <section class="education"><a name="education"></a>
+            <section class="education"><a id="education"></a>
                 <h3 class="page-title">Education</h3>
                 <article class="data">
                     <h4 class="page-subtitle"> Udemy</h4>
@@ -141,14 +126,16 @@
                     </div>
                 </article> 
             </section>  
-            <section class="projects"><a name="projects"></a>
+            <section class="projects"><a id="projects"></a>
                 <h3 class="page-title">Projects</h3>
                 <article class="data">
                     <h4 class="page-subtitle"><a class="link-page" href="#">Equestrian estate</a></h4>
                         <div class="data-block">
                             <div class="data-block__header">
                                         GitHub |<br>
-                                        <a href="https://github.com/MxKlim/KonnoePomeste">View source here</a>
+                                        <a href="https://konnoepomeste.by/">View here|<br>
+                                            <img class="img-project" src="img/kp.png" alt="">
+                                        </a>
                         </div>
                         <div class="data-block__description">
                             The training project is a three-page website. I used HTML 5, SCSS, JS. The main task is an adaptive gallery with a slider, to work with the "panini" template engine. The layout was collected by the Gulp assembly. Full screen video background.
@@ -157,11 +144,13 @@
                     </div>
                 </article> 
                 <article class="data">
-                    <h4 class="page-subtitle"><a class="link-page" href="https://mxklim.github.io/webschool/">webschool</a></h4>
+                    <h4 class="page-subtitle"><a class="link-page" href="https://mxklim.github.io/webschool/" target="_blank" >webschool</a></h4>
                         <div class="data-block">
                             <div class="data-block__header">
                                         GitHub |<br>
-                                        <a href="https://github.com/MxKlim/webschool">View source here</a>
+                                        <a href="https://mxklim.github.io/webschool/index.html">View here |<br>
+                                            <img class="img-project" src="img/git.svg" alt="">
+                                        </a>
                         </div>
                         <div class="data-block__description">
                             In this project I used HTML, SCSS, JS. The purpose of the work is an adaptive site, with a "Slick Slider" slider.
@@ -171,23 +160,24 @@
                     </div>
                 </article> 
                 <article class="data">
-                    <h4 class="page-subtitle"><a class="link-page" href="https://jehnyfit.by/">Jehny Fit</a></h4>
+                    <h4 class="page-subtitle"><a class="link-page" target="_blank" href="https://jehnyfit.by/">Jehny Fit</a></h4>
                         <div class="data-block">
                             <div class="data-block__header">
                                 Jehny Fit |<br>
-                                        <a href="https://jehnyfit.by/">View here</a>
-                        </div>
-                        <div class="data-block__description">
+                                        <a href="https://jehnyfit.by/" target="_blank">View here |<br>
+                                 <img class="img-project" src="img/jf.svg" alt=""></a>       
+                            </div>
+                            <div class="data-block__description">
                             In this project I used HTML, SCSS, JS. Work was carried out with payment systems. Working with forms and SHA encryption, configuring the administrative panel and dynamic price changes.
-                        </div>    
-                    </div>
+                            </div>    
+                         </div>
                 </article> 
                 <article class="data">
                     <h4 class="page-subtitle">Code JS</h4>
                         <div class="data-block">
                             <div class="data-block__header">
                                 Task solution code Replace With Alphabet Position (6 kuy) <br>
-                                        <a href="https://www.codewars.com/kata/546f922b54af40e1e90001da/solutions/javascript">View task here</a>
+                                        <a href="https://www.codewars.com/kata/546f922b54af40e1e90001da/solutions/javascript" target="_blank">View task here</a>
                         </div>
                         <div class="data-block__description">
                            <pre>
@@ -218,14 +208,14 @@ function alphabetPosition(text) {
                     <div class="data-block">
                         <div class="data-block__header">
                             Task solution code Multiples of 3 or 5 (6 kuy) <br>
-                                    <a href="https://www.codewars.com/kata/514b92a657cdc65150000006">View task here</a>
+                                    <a href="https://www.codewars.com/kata/514b92a657cdc65150000006" target="_blank">View task here</a>
                     </div>
                     <div class="data-block__description">
                        <pre>
                            <code>
 function solution(number){
  const stack = [];
-  for(let i = 0; i < number; i++){
+  for(let i = 0; i &lt; number; i++){
     if(i%3 === 0){
      stack.push(i)
     }
@@ -245,14 +235,14 @@ function solution(number){
                 </article> 
             </section> 
             
-            <article class="data"> <a name="contacts"></a>
+            <article class="data"> <a id="contacts"></a>
                 <h3 class="page-title">Contact information</h3>
                 <ul class="contacts-list_main ">
-                    <li class="data-block__description">Location: Minsk</li>
-                    <li class="data-block__description">
-                        Email: <a class="link-page" href="mailto:mxsrton@gmail.com">mxsrton@gmail.com</a></li>
-                    <li class="data-block__description">Tel: <a class="link-page" href="tel:+375447749383">+375447749383</a> </li>
-                    <li class="data-block__description">Telegram: @maxsimklimenkov</li>
+                    <li class="data-block__description location"> Minsk</li>
+                    <li class="data-block__description emaill">
+                         <a class="link-page" href="mailto:mxsrton@gmail.com">mxsrton@gmail.com</a></li>
+                    <li class="data-block__description tel"> <a class="link-page" href="tel:+375447749383">+375447749383</a> </li>
+                    <li class="data-block__description telegram"> @maxsimklimenkov</li>
                 </ul>
             </article> 
             
@@ -276,11 +266,11 @@ function solution(number){
                 <article class="contacts">
                     <h4 class="page-subtitle page-subtitle_aside">Contact information</h4>
                     <ul class="contacts-list">
-                        <li class="contacts-list__item">Location: Minsk</li>
-                        <li class="contacts-list__item">
-                            Email: <a class="link-page" href="mailto:mxsrton@gmail.com">mxsrton@gmail.com</a></li>
-                        <li class="contacts-list__item">Tel: <a class="link-page" href="tel:+375447749383">+375447749383</a> </li>
-                        <li class="contacts-list__item">Telegram: @maxsimklimenkov</li>
+                        <li class="contacts-list__item location"> Minsk</li>
+                        <li class="contacts-list__item emaill">
+                             <a class="link-page" href="mailto:mxsrton@gmail.com">mxsrton@gmail.com</a></li>
+                        <li class="contacts-list__item tel"> <a class="link-page" href="tel:+375447749383">+375447749383</a> </li>
+                        <li class="contacts-list__item telegram"> @maxsimklimenkov</li>
                     </ul>
                 </article>
                 
